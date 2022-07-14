@@ -1,14 +1,8 @@
 module.exports = {
     branches: ["main"],
     plugins: [
-      [
         '@semantic-release/commit-analyzer',
-        {
-          // https://github.com/semantic-release/commit-analyzer#releaserules
-          releaseRules: [],
-        },
-      ],
-      '@semantic-release/release-notes-generator',
-      '@semantic-release/github',
+        '@semantic-release/release-notes-generator',
+        '@semantic-release/github',
     ],
-  };
+};
