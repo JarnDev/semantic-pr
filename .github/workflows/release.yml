@@ -5,8 +5,6 @@ on:
       - main
 jobs:
   release:
-    needs: 
-      - update_release_draft
     name: Release
     runs-on: ubuntu-latest
     steps:
