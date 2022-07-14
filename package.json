@@ -1,0 +1,32 @@
+{
+  "name": "semantic-pr",
+  "version": "0.0.0-development",
+  "description": "testing configuration for semantic-pr releases",
+  "main": "index.js",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
+    "semantic-release": "^19.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarnDev/semantic-pr.git"
+  },
+  "author": "Alfredo Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JarnDev/semantic-pr/issues"
+  },
+  "homepage": "https://github.com/JarnDev/semantic-pr#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
