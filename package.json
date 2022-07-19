@@ -11,7 +11,8 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "semantic-release": "^19.0.3"
+    "semantic-release": "^19.0.3",
+    "semantic-release-slack-bot": "^3.5.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\"",
@@ -31,7 +32,7 @@
   "homepage": "https://github.com/JarnDev/semantic-pr#readme",
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
   },
   "lint-staged": {
